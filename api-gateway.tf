@@ -1892,7 +1892,7 @@ resource "aws_api_gateway_deployment" "APIDeployment" {
   ]
 
   rest_api_id = aws_api_gateway_rest_api.AppApi.id
-  stage_name  = "prod"
-  description = "Prod deployment for API"
+  #stage_name  = "prod"
+  #description = "Prod deployment for API"
 
 }
